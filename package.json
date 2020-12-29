@@ -1,0 +1,18 @@
+{
+  "name": "corona-walks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gl-imi.f4.htw-berlin.de/info3-wise2020/lab06/lab06-group2-team9.git"
+  },
+  "author": "Hermes Rapce",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

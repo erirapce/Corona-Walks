@@ -1,1 +1,1 @@
-Corona-Walks-App
+Corona-Walks
