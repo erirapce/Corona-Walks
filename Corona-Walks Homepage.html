@@ -12,14 +12,23 @@
             <h1>Corona Walks</h1>
         </header>
         <nav>
-            <h2>Address: ""</h2> <!-- a textbox inside the parenthesis -->
-            <h2>Status</h2>
-            <ul>
-                <li>Positive but not ill</li>
-                <li>Ill</li>
-                <li>At Hospital</li>
-                <li>Dead</li>
-            </ul>
+            <fieldset>
+                <label for="address">Address</label>
+                <input id="address" type="text">
+            </fieldset>
         </nav>
+        <nav>
+            <fieldset>
+                <label for="status">Status</label>
+                <select id="status">
+                    <option>Positive but not ILL</option>
+                    <option>ILL</option>
+                    <option>At Hospital</option>
+                    <option>Dead</option>
+                </select>
+            </fieldset>
+        </nav>
+
+
     </body>
 </html>
