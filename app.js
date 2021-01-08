@@ -21,6 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use(express.static('views'))
 
 //homepage page
 app.get('/', function(req, res){
@@ -32,13 +33,14 @@ app.get('/', function(req, res){
   res.render('pages/Map');
 });
 
+app.listen(3001);
+console.log('3001 is macoku\'s port')
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.listen(3001);
-console.log('3001 is macoku\'s port');
 
 // error handler
 app.use(function(err, req, res, next) {
