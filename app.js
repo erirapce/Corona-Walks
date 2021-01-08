@@ -22,6 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use(express.static('views'))
+app.use(express.static('public'))
 
 //homepage page
 app.get('/', function(req, res){

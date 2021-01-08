@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang = "de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Homepage</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Corona Walks</h1>
+        </header>
+        <nav>
+            <h2>Information</h2>
+            <ul>
+                <li><input type="color" value="#00ffff"/>Cyan - Positive but not ill</li>
+                <li><input type="color" value="#0000ff"/>Blue - ILL</li>
+                <li><input type="color" value="#ffa500"/>Orange - At Hospital</li>
+                <li><input type="color" value="#ff0000"/>Red - Dead</li>
+            </ul>
+        </nav>
+        <form>
+            <nav>
+                <fieldset>
+                    <label for="address">Address</label>
+                    <input id="address" type="text">
+                </fieldset>
+            </nav>
+            <nav>
+                <fieldset>
+                    <label for="status">Status</label>
+                    <select id="status">
+                        <option>Positive but not ill</option>
+                        <option>ILL</option>
+                        <option>At Hospital</option>
+                        <option>Dead</option>
+                    </select>
+                </fieldset>
+            </nav>
+                <input type="submit" value="save"/>
+        </form>
+    </body>
+</html>
