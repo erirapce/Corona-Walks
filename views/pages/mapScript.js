@@ -14,3 +14,4 @@ var circle = L.circle([52.52, 13.41],{
     fillOpacity: 0.5,
     radius: 500
 }).addTo(mymap);
+circle.bindPopup("Rosenthaler Str. 51, 10178 Berlin, Deutschland");
